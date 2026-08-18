@@ -5,17 +5,6 @@ class Solution(object):
         for symbol in s:
             if symbol in "([{":
                 stack.append(symbol)
-            
-            # if len(stack) != 0:
-            #     TopE = stack[-1]
-
-            #     if symbol == ")" and TopE == "(":
-            #         stack.pop()
-            #     if symbol == "]" and TopE == "[":
-            #         stack.pop()
-            #     if symbol == "}" and TopE == "{":
-            #         stack.pop()
-
         
             if symbol == ")":
                 stack.append(symbol)

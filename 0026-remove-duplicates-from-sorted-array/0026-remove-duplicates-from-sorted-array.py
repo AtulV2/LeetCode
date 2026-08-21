@@ -13,7 +13,7 @@ class Solution(object):
         for i in range(p1,len(nums)-1):
             nums.pop()
         
-        print(nums)
+       
 
             
         

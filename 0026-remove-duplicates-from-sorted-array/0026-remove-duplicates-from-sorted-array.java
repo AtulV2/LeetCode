@@ -7,12 +7,13 @@ class Solution {
 
         int n = 1;
 
-        for (int m = 1; m < nums.length; m++) {
-            if (nums[m] != nums[m - 1]) {
+        for(int m = 1; m < nums.length ; m++){
+            if(nums[m-1] != nums[m]){
                 nums[n] = nums[m];
                 n++;
             }
         }
+
 
         return n;
         
